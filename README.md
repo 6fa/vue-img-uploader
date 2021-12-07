@@ -1,4 +1,4 @@
-# img-uploader
+# vue-img-uploader
 
 基于vue的图片上传组件，分为图片预览区、图片选择器、提交按钮三部分。其中提交功能可去除，在获取图片列表后由用户自行提交。
 
@@ -63,14 +63,14 @@ this.$refs.uploader.fileList
 ## 代码结构
 插件源码位于src目录下的imgUploader：
 
--imgUploader<br>
--- assets: 存放字体和css文件<br>
--- components<br>
-  --- preview：存放预览图片组件<br>
-  --- selector：存放选择图片组件<br>
-  --- submit：存放提交按钮组件<br>
--- index.js：入口文件<br>
--- index.vue：插件主页面
+imgUploader<br>
+--- assets: 存放字体和css文件<br>
+--- components<br>
+  ------ preview：存放预览图片组件<br>
+  ------ selector：存放选择图片组件<br>
+  ------ submit：存放提交按钮组件<br>
+--- index.js：入口文件<br>
+--- index.vue：插件主页面
 
 ## 打包为库
 运行下面的命令，将会将插件代码打包到根目录下的lib目录
