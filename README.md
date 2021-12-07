@@ -12,6 +12,29 @@
 npm run serve
 ```
 
+## 打包为库
+运行下面的命令，将会将插件代码打包到根目录下：
+```
+npm run lib
+```
+
+## 如何用于自己的项目
+根目录下imgUploader目录为已经打包好的插件源码，可以放到自己项目中，然后在main.js中引入使用：
+```
+//main.js
+import Vue from 'vue'
+import App from './App.vue'
+import imgUploader from 'imgUploader/imgUploader.umd.js'
+
+Vue.use(imgUploader)
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+```
+
+
+
 ## 文档
 | 字段 | 类型 | 描述 | 默认值 | 值类型 |
 | ---- | ---- | ---- | ---- | ---- |
@@ -61,7 +84,7 @@ this.$refs.uploader.fileList
 ```
 
 ## 代码结构
-插件源码位于src目录下的imgUploader：
+未打包的插件源码位于src目录下的imgUploader：
 
 imgUploader<br>
 --- assets: 存放字体和css文件<br>
@@ -72,8 +95,3 @@ imgUploader<br>
 --- index.js：入口文件<br>
 --- index.vue：插件主页面
 
-## 打包为库
-运行下面的命令，将会将插件代码打包到根目录下的lib目录
-```
-npm run lib
-```
