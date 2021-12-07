@@ -5,7 +5,7 @@
     <div class="info">
       <span v-if="limit > 0">限{{limit}}张</span>
       <span class="limit" v-if="maxSize">{{maxSize}}MB内</span>
-      <span v-if="!maxSize && !limit">上传图片</span>
+      <span v-if="!maxSize && !limit">选择图片</span>
     </div>
     <input style="display:none"  type="file" ref="input" @change="getFile" accept="image/*" multiple/>
   </div>
@@ -31,13 +31,14 @@ export default {
 @import url('../../assets/css/font.css');
 
 #card-selecter {
-  border: 1px dashed lightgrey;
+  border: 1px dashed rgb(163, 163, 163);
   width: 5rem;
   height: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background-color: white;
 }
 #card-selecter:hover {
   color: rgb(83, 83, 255);

@@ -65,7 +65,7 @@ export default {
   @import url('../../assets/css/font.css');
   #drag-selector{
     width: 20rem;
-    border: 1px dashed lightgrey;
+    border: 1px dashed rgb(163, 163, 163);
     height: 4rem;
     padding: 1rem;
     display: flex;
@@ -73,6 +73,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: white;
   }
   #drag-selector .icon {
     display: block;

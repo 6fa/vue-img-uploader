@@ -93,7 +93,7 @@ export default {
 #card-preview .success,
 #card-preview .loading,
 #card-preview .failed {
-  border: 1px dashed lightgrey;
+  border: 1px dashed rgb(163, 163, 163);
   width: 5rem;
   height: 5rem;
 }
@@ -111,6 +111,10 @@ export default {
   display: flex;
   justify-content:space-around;
   align-items: center;
+}
+#card-preview .success .contrl i,
+#card-preview .failed .contrl i {
+  font-size: 1.1rem;
 }
 
 /* success部分 */

@@ -107,22 +107,21 @@ export default {
   @import url('../../assets/css/font.css');
   #list-preview {
     width: 20rem;
-    max-width: 40rem;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(163, 163, 163);
     height: 2.5rem;
     position: relative;
   }
   #list-preview .success,
   #list-preview .loading,
   #list-preview .failed {
-    width: 100%;
-    height: 100%;
+    width: 20rem;
+    height: 2.5rem;
     display: flex;
   }
   #list-preview .cancel {
     position: absolute;
     font-size: 1.2rem;
-    right: 10px;
+    right: .5rem;
     top: 0;
   }
 
@@ -132,6 +131,7 @@ export default {
     height: 2rem;
     padding: .25rem;
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   #list-preview .img-preview img {
@@ -176,7 +176,7 @@ export default {
     font-size: 1.2rem;
   }
   #list-preview .process {
-    height: 10px;
+    height: .6rem;
     color: grey;
     width: 16rem;
     overflow: hidden;
@@ -185,7 +185,7 @@ export default {
   #list-preview .process .total,
   #list-preview .process .loaded {
     height: 100%;
-    border-radius: 10px;
+    border-radius: .9rem;
   }
   #list-preview .process .total {
     width: 100%;

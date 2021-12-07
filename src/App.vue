@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <uploader selectComp="cardSelector" previewComp="cardPreview" submit="/" :limit='4' :maxSize='2'></uploader>
+    <uploader selectComp="cardSelector" previewComp="listPreview" submit="/" :limit='4' :maxSize='2'></uploader>
   </div>
 </template>
 

@@ -70,7 +70,7 @@ export default {
   height: 100%;
   color: white;
   background-color: rgb(135, 210, 255);
-  border-radius: 10px;
+  border-radius: .7rem;
 }
 #button-submit .info:hover {
   background-color: rgb(027,154,238);

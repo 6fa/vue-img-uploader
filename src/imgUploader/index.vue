@@ -49,6 +49,7 @@ export default {
   components: {
     dragSelector: () => import('./components/selector/dragSelector.vue'),
     cardSelector: () => import('./components/selector/cardSelector.vue'),
+    buttonSelector: () => import('./components/selector/buttonSelector.vue'),
     cardPreview: () => import('./components/preview/cardPreview.vue'),
     listPreview: () => import('./components/preview/listPreview.vue'),
     submitButton: () => import('./components/submit/submit.vue')
