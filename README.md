@@ -39,7 +39,7 @@ new Vue({
 | 字段 | 类型 | 描述 | 默认值 | 值类型 |
 | ---- | ---- | ---- | ---- | ---- |
 | previewComp | 属性 | 选择图片预览的形式，有列表形式(listPreview)和卡片形式(cardPreview) | 'cardPreview' | String |
-| selectComp | 属性 | 选择图片选择器的形式，有拖拽板形式(dragSelector)和卡片形式(cardSelector) | 'cardSelector' | String |
+| selectComp | 属性 | 选择图片选择器的形式，有拖拽板形式(dragSelector)、卡片形式(cardSelector)、按钮形式(buttonSelector) | 'cardSelector' | String |
 | limit | 属性 | 图片上传最大张数 |   | Number |
 | maxSize | 属性 | 图片上传最大大小, 单位为MB |  | Number |
 | submit | 属性 | 是否显示提交功能，不需要则不写。值为提交的服务器地址。 |  | String |
