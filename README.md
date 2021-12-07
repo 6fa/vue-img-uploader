@@ -19,7 +19,7 @@ npm run lib
 ```
 
 ## 如何用于自己的项目
-根目录下imgUploader目录为已经打包好的插件源码，可以放到自己项目中，然后在main.js中引入使用：
+根目录下imgUploader目录为【已经打包好】的插件源码，可以放到自己项目中，然后在main.js中引入使用：
 ```
 //main.js
 import Vue from 'vue'
@@ -84,7 +84,7 @@ this.$refs.uploader.fileList
 ```
 
 ## 代码结构
-未打包的插件源码位于src目录下的imgUploader：
+【未打包】的插件源码位于src目录下的imgUploader：
 
 imgUploader<br>
 --- assets: 存放字体和css文件<br>
